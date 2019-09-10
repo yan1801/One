@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #353535;
+    font: 16px/1.5 'Microsoft Yahei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+}
+
+.sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    width: 300px;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #636161;
+}
+
+.my_img {
+    width: 160px;
+    height: 160px;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 100%;
+    border: rgb(8, 8, 8) 5px solid;
+    transition: transform 0.5s;
+}
+
+.my_img:hover {
+    transform: rotate(1turn);
+}
+
+.my_img img {
+    border-radius: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-align: center;
+}
+
+.nav a:hover {
+    background: rgba(0, 0, 0, .2);
+}
+
+main {
+    margin-left: 300px;
+}
+
+#info {
+    background: url("http://bpic.588ku.com/back_pic/00/02/36/27561719aa5ce37.jpg") fixed;
+}
+
+main section {
+    padding: 5em 0;
+    position: relative;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 3.5em;
+    box-sizing: content-box;
+}
+
+.title {
+    margin-bottom: 1em;
+    margin-left: 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1.25em;
+    margin-right: -1.25em;
+}
+
+.grenxx-1 {
+    flex: 0 0 33.3%;
+    max-width: 33.33333%;
+}
+
+.row[class="grenxx-1"] {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+#skill {
+    background: #f8bd24;
+}
+
+.row-a {
+    overflow: auto;
+    margin-left: 0;
+    margin-right: 0;
+    flex-wrap: nowrap;
+}
+
+.row>.row-b {
+    text-align: center;
+}
+
+.row [class*="grenxx-"] {
+    position: relative;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.skill-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.skill-logo i {
+    font-size: 50px;
+    line-height: 100px;
+    transition: transform 0.5s;
+}
+
+.skill-title {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+#works {
+    background: url("http://xm.jianhuax.com/jianhuax/html5/24/static/images/bg-2.png") fixed;
+}
+
+.grenxx-1-11 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.row [class*="grenxx-"] {
+    position: relative;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.works-item img:hover {
+    transform: scale(1.05, 1.05);
+    cursor: zoom-in;
+}
+
+.works-item img {
+    transition: transform 0.3s;
+}
+
+.works-item p {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.row>.center-fixed {
+    text-align: center;
+}
+
+.col-m-8 {
+    flex: 0 0 66.66666%;
+    max-width: 66.6666%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.timeline {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 2px grey solid;
+}
+
+#team {
+    background: url("http://xm.jianhuax.com/jianhuax/html5/24/static/images/bg-3.png") fixed;
+}
+
+.team-p {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+footer {
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    background: #72655b;
+}
+
+footer a {
+    color: inherit;
+}
+
+/*.btn {
+    font: inherit;
+    cursor: pointer;
+    background: rgb(94, 93, 93);
+    border-radius: 4px;
+    padding: .8em 1.5em;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    color: inherit;
+}*/
+
+.imgs {
+    width: 40px;
+    height: 40px;
+}
+
+.fa-img {
+    margin-bottom: 20px;
+}
+
+.fa-img1 {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.fa-img2 {
+    margin-bottom: 23px;
+}
+
+.fa-img3 {
+    margin-bottom: 40px;
+}
